@@ -291,3 +291,60 @@ hr {
     flex-direction: row;
     justify-content: flex-start;
 }
+
+@media (max-width: 858px) {
+    header {
+        height: 65px;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .nav-menu ul {
+        display: block;
+        position: fixed;
+        top: 55px;
+        left: -100%;
+        background: #24292E;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+    .nav-menu ul li {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    #check:checked~ul {
+        left: 0;
+        transition: 0.5s ease-in-out;
+    }
+    .gif {
+        height: 500px;
+    }
+    .hero {
+        height: 160vh;
+    }
+    .hero .info-content {
+        grid-column: 3 / 10;
+        grid-row: 2 / 4;
+    }
+    .arte {
+        grid-column: 2 / 10;
+        grid-row: 5 / 8;
+    }
+    .arte img {
+        height: 718px;
+        width: 717px;
+    }
+    .footer-col h2 {
+        font-size: 25px;
+    }
+}

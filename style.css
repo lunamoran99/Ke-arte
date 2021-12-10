@@ -37,9 +37,6 @@ header {
     margin-right: 1.5rem;
 }
 
-
-/* */
-
 .buscar {
     /* comienzo de buscador */
     position: center;
@@ -70,7 +67,7 @@ header {
 input.src:hover {
     width: 600px;
     background-color: #24292E;
-    background: #24292E url("/Imagenes/Lupa\ copy.svg") no-repeat 9px center;
+    background: #24292E url("/Img-index/Lupa\ copy.svg") no-repeat 9px center;
     color: #fff;
 }
 

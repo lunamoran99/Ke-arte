@@ -134,3 +134,10 @@ input.src:hover {
 #check {
     display: none;
 }
+
+.gif {
+    background-position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}

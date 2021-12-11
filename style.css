@@ -338,5 +338,37 @@ button:hover {
     display: initial;
 }
 
+.heros {
+    height: 100vh;
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.heros .info-contents {
+    grid-column: 3 / 5;
+    grid-row: 4 / 9;
+}
+
+.info-contents h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.info-contents p {
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.artes {
+    grid-column: 6 / 10;
+    grid-row: 2 / 8;
+}
+
 
 /* Fin de la galería*/

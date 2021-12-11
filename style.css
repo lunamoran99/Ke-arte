@@ -387,7 +387,7 @@ button:hover {
 
 .heross .info-contentss {
     grid-column: 8 / 11;
-    grid-row: 6 / 10;
+    grid-row: 5 / 10;
 }
 
 .info-contentss h3 {
@@ -515,7 +515,7 @@ button:hover {
 /* fin boton creador */
 
 
-/* footer */
+/* footer*/
 
 hr {
     border: 1px solid #fff;

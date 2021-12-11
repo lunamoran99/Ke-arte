@@ -513,3 +513,109 @@ button:hover {
 
 
 /* fin boton creador */
+
+
+/* footer */
+
+hr {
+    border: 1px solid #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 10px 60px;
+}
+
+.footer-col h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 37px;
+    color: #fff;
+}
+
+.footer-col h4 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #3D67D2;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 8px;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.linearedes {
+    width: 90%;
+    display: flex;
+}
+
+.pie p {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    margin: 30px;
+    display: flex;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+/* fin footer */

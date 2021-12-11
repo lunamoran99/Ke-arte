@@ -344,8 +344,6 @@ button:hover {
     display: initial;
 }
 
-
-/*
 .heros {
     height: 100vh;
     background-size: cover;
@@ -356,20 +354,20 @@ button:hover {
 }
 
 .heros .info-contents {
-    grid-column: 3 / 5;
+    grid-column: 2 / 5;
     grid-row: 4 / 9;
 }
 
 .info-contents h3 {
     font-family: 'Outfit', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
 }
 
 .info-contents p {
     font-family: 'DM Sans', sans-serif;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 30px;
 }
 

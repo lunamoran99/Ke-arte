@@ -224,3 +224,119 @@ button:hover {
 
 
 /* Fin del CTA intro */
+
+
+/* Comienzo de INTENTO de galeria */
+
+.vendidos {
+    /* section */
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.vendidos h2 {
+    font-size: 15px;
+}
+
+.titulo p {
+    font-size: 15px;
+}
+
+.titulo {
+    /* Boton y flechas para ver mas NFTS */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -70px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.ver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #fff 2px;
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.imag {
+    margin: 8px;
+    cursor: pointer;
+}
+
+.encabezado {
+    /* Vendidos recientemente */
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: -20px;
+}
+
+.fototexto p {
+    /* Los articulos */
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    bottom: 10px;
+}
+
+.fototexto h2 {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.fotos {
+    width: 18%;
+    position: relative;
+    /* Acá para que el contenido de los articulos no se vea y "aparezca desde abajo de la imagen" debería poner hidden, pero cuando lo puse no funciono asi que revisar */
+}
+
+.fototexto {
+    position: absolute;
+    bottom: 14.5%;
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 90px;
+    width: 227px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 31px;
+    border-radius: 28px;
+    transform: translateY(100%);
+    display: none;
+}
+
+.fotos:hover .fotofoto {
+    transform: scale(1.11);
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+
+.fotos:hover .fototexto {
+    transform: translateY(0%);
+    transition: all .5s ease-in-out;
+    display: initial;
+}
+
+
+/* Fin de la galería*/

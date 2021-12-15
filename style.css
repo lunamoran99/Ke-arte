@@ -535,14 +535,8 @@ hr {
 }
 
 .footer-col {
-    width: 25%;
-    padding: 10px 60px;
-}
-
-.footer-col h2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 37px;
-    color: #fff;
+    width: 33%;
+    padding: 10px 100px;
 }
 
 .footer-col h4 {
@@ -674,7 +668,10 @@ hr {
         height: 718px;
         width: 717px;
     }
-    .footer-col h2 {
-        font-size: 25px;
+    .footer-col {
+        padding: 10px 50px;
+    }
+    .pie {
+        width: 90%;
     }
 }

@@ -680,6 +680,22 @@ hr {
         flex-direction: column;
         justify-content: center;
     }
+    .heros .info-contents {
+        grid-column: 3 / 10;
+        grid-row: 2 / 4;
+    }
+    .artes {
+        grid-column: 1 / 10;
+        grid-row: 5 / 8;
+    }
+    .heross .info-contentss {
+        grid-column: 3 / 10;
+        grid-row: 2 / 10;
+    }
+    .artess {
+        grid-column: 2 / 10;
+        grid-row: 8 / 10;
+    }
     .footer-col {
         padding: 10px 50px;
     }

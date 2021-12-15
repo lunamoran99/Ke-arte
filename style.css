@@ -284,6 +284,7 @@ button:hover {
     /* Vendidos recientemente */
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-top: 100px;
     margin-left: -20px;
 }
@@ -673,6 +674,11 @@ hr {
     }
     .titulo {
         margin-right: 1%;
+    }
+    .columnas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .footer-col {
         padding: 10px 50px;

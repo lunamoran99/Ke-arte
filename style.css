@@ -16,6 +16,7 @@ li {
     /* para poner las categorías en color blanco */
     font-family: 'DM Sans', sans-serif;
     color: rgba(199, 199, 199, 0.74);
+    text-decoration: none;
 }
 
 header {

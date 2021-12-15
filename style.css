@@ -668,6 +668,12 @@ hr {
         height: 718px;
         width: 717px;
     }
+    .encabezado {
+        margin-left: 1%;
+    }
+    .titulo {
+        margin-right: 1%;
+    }
     .footer-col {
         padding: 10px 50px;
     }
